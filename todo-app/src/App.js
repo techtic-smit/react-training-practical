@@ -70,7 +70,7 @@ export default function App() {
       {isEditing ? (
 
         <form onSubmit={handleEditFormSubmit}>
-          <h2>Edit Todo</h2>
+          
           <label>Edit todo: </label>
 
           <input
@@ -86,7 +86,7 @@ export default function App() {
       ) : (
 
         <form onSubmit={handleFormSubmit}>
-          <h2>Add Todo</h2>
+          
           <label>Add todo: </label>
 
           <input
